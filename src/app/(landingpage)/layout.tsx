@@ -8,12 +8,6 @@ export default function LandingLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const { orgId } = auth();
-
-  if (!orgId) {
-    return redirect("/select-org");
-  }
-
   return (
     <div>
       <Header />
