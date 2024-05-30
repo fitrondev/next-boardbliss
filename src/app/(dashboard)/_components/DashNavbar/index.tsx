@@ -6,8 +6,8 @@ import Link from "next/link";
 
 const DashNavbar = () => {
   return (
-    <header className="shadow-sm">
-      <div className="h-16 container flex items-center justify-between">
+    <header className="border-b shadow-sm">
+      <div className="h-16 container-dashboard flex items-center justify-between">
         <div className="inline-flex items-center gap-2">
           <Logo />
 
